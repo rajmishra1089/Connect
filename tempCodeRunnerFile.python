@@ -1,0 +1,9 @@
+array=[]
+n=4
+for i in range(n):
+    r=[]
+    for j in range(n):
+        r.append(0)
+    array.append(r)
+array[:][0]+=2
+print(array)
